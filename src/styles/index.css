@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: white;
+}
+.title{
+    color: #f3f1f1;
+    text-align: center;
+}
+.todolist{
+    height: 611px;
+    width: 800px;
+    background:aquamarine;
+    margin: auto;
+    padding-top: 3%;
+}
+.dentroDe{
+    height: 520px;
+    width: 500px;
+    background: #526cfd;
+    margin: auto;
+    text-align: center;
+    color: aquamarine;
+}
+.newOne{
+    margin: 2px;
+    border: 1px solid #08f190;
+    background: #fa3333;
+    color: #ffffff;
+    height: 50px;
+    font-size: 130%;
+    display: flex;
+}
+.button{
+    float: right;
+    background: aquamarine;
+    text-align: right;
+    display: none;
+}
+.newOne:hover>.button {
+    display: inline;
+}
